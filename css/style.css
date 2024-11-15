@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background: #f2f2f2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+.tasks-section{
+    flex-direction: column;
+    align-items: center;
+    
+   
+
+}
+.section-input{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tasks-section li{
+   
+    list-style: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#addTask{
+    background-color: #0A74DA;
+    color: white;
+}
+#deleteInput{
+    background-color: #FF4C4C;
+    color:white
+}
+.checkInput{
+    color:white
+}
+.checkTask{
+    text-decoration: line-through;
+    color: gray;
+}
+.fall{
+    opacity: 0.5;
+
+}
